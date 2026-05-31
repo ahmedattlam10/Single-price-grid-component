@@ -14,15 +14,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](/images/Screenshot%202026-06-01%20005137.png)
 
 
 ### Links
 
-- Solution URL: [solution URL](https://your-solution-url.com)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
-
-## My process
+- Solution URL: [solution URL](https://github.com/ahmedattlam10/Single-price-grid-component)
+- Live Site URL: [live site URL](https://ahmedattlam10.github.io/Single-price-grid-component/)
 
 ### Built with
 
