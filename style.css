@@ -5,8 +5,6 @@
 *::before,
 *::after{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 :root{
@@ -69,9 +67,10 @@ body{
 .intro-heading{
     font-size: 1.5rem;
     font-weight: var(--fw-bold);
+    color: var(--clr-dark-teal);
 }
 
-.intro-subheading{
+.intro-highlight{
     font-size: 1.125rem;
     font-weight: var(--fw-bold);
     color: var(--clr-green);
@@ -80,7 +79,7 @@ body{
 .intro-description{
     font-weight: var(--fw-regular);
     color: var(--clr-gray);
-    line-height: 165%;
+    line-height: 1.6;
 }
 
 .subscription{
@@ -111,7 +110,7 @@ body{
 .subscription-description{
     color: hsla(0, 0%, 100%, 0.8);
     font-weight: var(--fw-regular);
-    line-height: 165%;
+    line-height: 1.6;
 }
 
 .sign-up-btn{
@@ -156,11 +155,11 @@ body{
 .pros-list{
     list-style: none;
     color: hsla(0, 0%, 100%, 0.75);
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 
-@media (min-width: 768px){
+@media (min-width: 48em){
     .card{
         grid-template-columns: repeat(2, 1fr);
     }
