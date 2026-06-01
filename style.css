@@ -21,6 +21,9 @@
 
     --fw-regular: 400;
     --fw-bold: 700;
+
+    --space-x: 40px;
+    --space-y: 20px 
 }
 
 body{
@@ -49,7 +52,7 @@ body{
 
 .intro{
     background-color: white;
-    padding: 40px;
+    padding: var(--space-x);
 }
 
 .intro-heading{
@@ -75,7 +78,7 @@ body{
 
 .subscription{
     background-color: var(--clr-dark-teal);
-    padding: 20px 40px;
+    padding: var(--space-y) var(--space-x);
 }
 
 .subscription-heading{
@@ -85,7 +88,7 @@ body{
 }
 
 .price{
-    color: hsla(0, 0%, 100%, 0.5);
+    color: hsla(0, 0%, 100%, 0.7);
     font-weight: var(--fw-regular);
     display: flex;
     align-items: center;
@@ -111,8 +114,8 @@ body{
     text-decoration: none;
     background-color: var(--clr-green);
     color: white;
-    width: 15rem;
-    height: 3rem;
+    width: 100%;
+    min-height: 3rem;
     justify-content: center;
     align-items: center;
     border-radius: 6px;
@@ -135,7 +138,7 @@ body{
 
 .why-us{
     background-color: var(--clr-light-teal);
-    padding: 20px 40px;
+    padding: var(--space-y) var(--space-x);
 }
 
 .why-us-heading{
